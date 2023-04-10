@@ -15,15 +15,18 @@ print(MyStrings[2]) -- David
 ```
 
 ## **Notes**
+Printing a pythonized table will return a nil table
+### Example
 ```lua
 local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
-
---Printing a pythonized table will return a nil table
---Example:
 print(Foods) -- {}
-
---To print a pythonized table you will need to call the table
---Example:
-print(Foods()) -- {"Hamburger", "Salad", "Salmon"} 
 ```
+
+To fix this we are gonna need to call the table
+### Example
+```lua
+local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
+print(Foods) -- {"Hamburger", "Salad", "Salmon"}
+```
+
 
