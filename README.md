@@ -15,7 +15,7 @@ print(MyStrings[2]) -- David
 ```
 
 # **Notes**
-### Getting a pythonized table content will return **_nil_**
+### Getting the whole pythonized table's content will return **_nil_**
 ## Example
 ```lua
 local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
