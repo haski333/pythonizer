@@ -15,7 +15,7 @@ print(MyStrings[2]) -- David
 ```
 
 ## **Notes**
-**Printing a pythonized table will return a nil table**
+**Printing a pythonized table will return a** **nil table**
 ### Example
 ```lua
 local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
