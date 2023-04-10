@@ -24,8 +24,8 @@ local _pythonizer_meta = {
 }
 function duplicate_table(table)
 	local target = {}
-	for k, v in pairs(table) do
-		target[k] = v
+	for i, v in pairs(table) do
+		target[i] = v
 	end
 	return target
 end
