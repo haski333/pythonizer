@@ -22,9 +22,10 @@ local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
 print(Foods) -- {}
 ```
 
-**To fix this we are gonna need to call the ```lua
+**To fix this we are gonna need to call the**
+```lua
 table
-```**
+```
 ### Example
 ```lua
 local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
