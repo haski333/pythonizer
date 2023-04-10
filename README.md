@@ -26,7 +26,7 @@ print(Foods) -- {}
 ### Example
 ```lua
 local Foods = Pythonize({"Hamburger", "Salad", "Salmon"})
-print(Foods) -- {"Hamburger", "Salad", "Salmon"}
+print(Foods()) -- {"Hamburger", "Salad", "Salmon"}
 ```
 
 
