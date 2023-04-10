@@ -3,7 +3,7 @@ Pythonizer is a roblox module that can offset table indexes
 
 ## **Creating a pythonized table**
 ```lua
-local Pythonize = require(script.Pythonizer) -- Gets the pythonizing function using require
+local Pythonize = require(...) -- Gets the pythonizing function using require
 
 local MyStrings = {"John", "Alexandra", "David"} -- A simple table with some strings of names
 
