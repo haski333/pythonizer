@@ -1,7 +1,7 @@
 # Pythonizer
 Pythonizer is a roblox module that can offset table indexes
 
-##**Example**
+## **Example**
 ```lua
 local Pythonize = require(script.Pythonizer) -- Gets the pythonizing function using require
 
