@@ -1,6 +1,5 @@
 local holder = {}
 local append = table.insert
-local unpack = table.unpack
 
 function get_held_table(pythonized)
 	for _, holder_table in holder do
@@ -24,8 +23,8 @@ local _pythonizer_meta = {
 }
 function duplicate_table(table)
 	local target = {}
-	for i, v in pairs(table) do
-		target[i] = v
+	for k, v in pairs(table) do
+		target[k] = v
 	end
 	return target
 end
@@ -33,7 +32,7 @@ end
 local Pythonizer = function(table)
 	local new_table = duplicate_table(table)
 	table = {}
-	append(holder, {["orig"] = table, ["held"] = {unpack(new_table)}})
+	append(holder, {["orig"] = table, ["held"] = new_table})
 	return setmetatable(table, _pythonizer_meta)
 end
 
